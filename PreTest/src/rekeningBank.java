@@ -8,8 +8,8 @@ public class rekeningBank {
         
         input = new Scanner(System.in);
         System.out.println("Masukkan saldo anda :");
-        int jumlah = this.scanner.nextint(); 
-        saldo + jumlah ; 
+        int jumlah = input.nextInt(); 
+        saldo = saldo + jumlah ; 
 
         if (jumlah < 0 ) {
             System.out.println("tidak boleh min ");
